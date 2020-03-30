@@ -1,9 +1,16 @@
 #ifndef HASHTABLE
 #define HASHTABLE
 
+#ifndef ERROR
+#include "errorMessage.c"
+#endif
+
+#ifndef LIST
+#include "list.c"
+#endif
+
 #include <stdio.h>
 #include <stdlib.h>
-#include "list.c"
 
 #define tableMaxSize 49999 //numero primo
 

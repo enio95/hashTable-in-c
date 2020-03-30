@@ -1,5 +1,13 @@
 #include "hashTable.h"
 
+#ifndef ERROR
+#include "errorMessage.c"
+#endif
+
+#ifndef LIST
+#include "list.c"
+#endif
+
 hash *newHash()
 {
   hash *h = (hash *)malloc(sizeof(hash));
